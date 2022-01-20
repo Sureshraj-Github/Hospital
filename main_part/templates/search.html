@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+  </head>
+  <body>
+    <img src="{% static 'images/1503411077revised-bhatia-homebanner-03.jpg' %}" width="1400" height="700">
+    <div class="center">
+      <form method="post">
+        <div class="txt_field">
+          <input type="search" required>
+          <span></span>
+          <label><i class="fa fa-search"></i>Search for doctor or speciality</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required>
+          <span></span>
+          <label>Select location</label>
+        </div>
+        <input type="submit" value="Book an Appointment"><br>
+       
+      </form>
+    </div>
+   
+  </body>
+</html>
